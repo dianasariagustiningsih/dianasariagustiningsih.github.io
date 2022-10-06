@@ -1,5 +1,37 @@
+.para {
+    color: blanchedalmond;
+    margin-bottom: 15;
+    border: 1px;
+    padding: 20px 20px 0 0;
+}
 .para-eksternal {
     color:rgb(194, 178, 144);
     background-color: aliceblue;
 }
-    
+.box {
+    border: 1px solid burlywood;
+    height: 100px;
+    width: 100px;
+}
+
+/* smartphone */
+/* default (dari 0px sampai min-width selanjutnya)*/
+.hero > img{
+    width: 100%;
+}
+
+/* tablet */
+/* jika memasuki 768px */
+@media (min-width: 768px){
+    .hero > img {
+        width: 80%;
+    }
+}
+
+/* pc */
+/* jika memasuki 992px */
+@media (min-width: 992px){
+    .hero > img {
+        width: 60%;
+    }
+}
