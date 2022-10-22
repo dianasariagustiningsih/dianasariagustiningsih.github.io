@@ -1,18 +1,41 @@
-.para {
-    color: blanchedalmond;
-    margin-bottom: 15;
-    border: 1px;
-    padding: 20px 20px 0 0;
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,600;0,700;1,500&display=swap');
+
+:root {
+    --color-body: #b2b8c9;
+    --color-heading: #c2c9b2;
+    --color-base: #053e74;
+    --color-base2: #1e2c50;
+    --color-brand: #eeedba;
+    --color-brand2: #eef08c;
+    --sidbar-width: 240px;
+    --font-base: "Bai Jamjuree";
 }
-.para-eksternal {
-    color:rgb(194, 178, 144);
-    background-color: aliceblue;
+
+body {
+    background-color: #1e2c50;
+    color: var(--color-body);
+    font-family: var(--font-base), sans-serif;
 }
-.box {
-    border: 1px solid burlywood;
-    height: 100px;
-    width: 100px;
+
+h1,h2,h3,h4,h5,h6 {
+    color: var(--color-heading);
+    font-weight: 700;
 }
+
+a {
+    text-decoration: none;
+    color: var(--color-body);
+    transition: all 0.4s ease;
+}
+
+a:hover {
+    color: var(--color-brand);
+}
+
+img {
+    width: 100%;
+}
+
 
 /* smartphone */
 /* default (dari 0px sampai min-width selanjutnya)*/
